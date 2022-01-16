@@ -1,0 +1,22 @@
+[
+  {
+    "name": "prismic-preview",
+    "path": "/preview",
+    "component": "/home/jan/private/prismic-nuxtjs-test/.nuxt-storybook/prismic/pages/preview.vue",
+    "_name": "_233853ea"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/jan/private/prismic-nuxtjs-test/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_b0af1fd4"
+  },
+  {
+    "name": "uid",
+    "path": "/:uid",
+    "component": "/home/jan/private/prismic-nuxtjs-test/pages/_uid.vue",
+    "chunkName": "pages/_uid",
+    "_name": "_587bc27d"
+  }
+]
