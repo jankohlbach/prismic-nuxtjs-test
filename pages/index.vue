@@ -10,6 +10,7 @@
 </template>
 
 <script lang="ts">
+// @ts-ignore
 import SliceZone from 'vue-slicezone'
 
 export default {
@@ -17,12 +18,12 @@ export default {
     SliceZone
   },
 
+  // @ts-ignore
   async asyncData({ $prismic, params, error }) {
     const document = await $prismic.api.query(
       $prismic.predicates.at('document.type', 'beach')
     )
     if (document) {
-      console.log(document);
       return { document }
     } else {
       error({ statusCode: 404, message: 'Page not found' })
